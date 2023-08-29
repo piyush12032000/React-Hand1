@@ -1,0 +1,134 @@
+h2{
+    color: black;
+
+}
+p{
+    color:black;
+    text-align: center;
+}
+
+.app1{
+    width: 436px;
+    background-color: #d861fb;
+    border: 2px solid black;
+    border-radius: 26px;
+    height: 231px;
+    position: absolute;
+    left: 856px;
+    top: 320px;
+}
+.app2{
+    width: 436px;
+    background-color: #26d1e89e;
+    border: 2px solid black;
+    border-radius: 26px;
+    height: 231px;
+    position: absolute;
+    left: 219px;
+    top: 320px;
+}
+
+.btn1{
+   
+    width: 259px;
+    border: 2px solid black;
+    border-radius: 30px;
+    position: absolute;
+    left: 282px;
+    top: 178px;
+    height: 44px;
+    background-color: skyblue;
+
+}
+.btn2{
+    
+    width: 259px;
+    border: 2px solid black;
+    border-radius: 30px;
+    position: absolute;
+    left: 936px;
+    top: 178px;
+    height: 44px;
+    background-color: #87dceb;
+}
+.head{
+    box-shadow: 0px 9px 14px 15px #00beff;
+    text-shadow: 5px 3px 5px #d5de00;
+    position: absolute;
+    left: 264px;
+    font-size: 44px;
+    font-style: oblique;
+}
+@media (min-width:373px) and (max-width:500px){
+    body{
+width:99%;
+margin: 0%;
+padding: 0%;
+    }
+    .head{
+        text-shadow: 2px 2px 10px #d5de00;
+        position: absolute;
+        left: 3%;
+        box-shadow: 10px 4px 9px 10px #00beff;
+        font-size: 36px;
+        width: 94%;
+    }
+    h2{
+        color: black;
+    
+    }
+    p{
+        color:black;
+        text-align: center;
+    }
+    
+    .app1{
+        width: 41%;
+        background-color: #8c26e89e;
+        border: 2px solid black;
+        border-radius: 26px;
+        height: 290px;
+        position: absolute;
+        left: 56%;
+        top: 320px;
+    }
+    .app2{
+    width: 42%;
+    background-color: #26d1e89e;
+    border: 2px solid black;
+    border-radius: 26px;
+    height: 290px;
+    position: absolute;
+    left: 2%;
+    top: 320px;
+    }
+    
+    .btn1{
+       
+        width: 40%;
+        border: 2px solid black;
+        border-radius: 30px;
+        position: absolute;
+        left: 4%;
+        top: 239px;
+        height: 47px;
+    
+    }
+    .btn2{
+        width: 40%;
+        border: 2px solid black;
+        border-radius: 30px;
+        position: absolute;
+        left: 56%;
+        top: 239px;
+        height: 46px;
+        background-color: #87dceb;
+    }
+    .App {
+        text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      
+      }
+    
+}
